@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lavender"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG DI KAMPUS KITA"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/wellcome"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsbold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/home3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Kampus kita merupakan fasilitas untuk mahasiswa berupa aplikasi mobile yang dapat digunakan untuk melakukan KRS, melihat KHS, Memperbarui bio mahasiswa, dan masih banyak lagi, aplikasi ini sendiri bisa digunakan kapan pun dan dimanapun asalkan ada koneksi internet sehingga lebih praktis untuk mahasiswa di era ini."
+            android:gravity="center"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+
+</LinearLayout>
